@@ -6,7 +6,7 @@ function TambahSiswa() {
   const navigate = useNavigate();
   const [form, setForm] = useState({
     nama: "",
-    umur: "",
+    umur:"",
     alamat: "",
     tanggal: "",
     jurusan: "",
